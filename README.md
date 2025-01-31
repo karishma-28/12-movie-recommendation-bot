@@ -74,21 +74,6 @@ To install the dependencies, run:
      ```bash
      pip install -r requirements.txt
 
-**Project Structure**
-
-12-movie-recommendation-bot/
-│
-├── movie_recommendation_bot.py      # Main script to run the bot
-├── requirements.txt                 # List of dependencies
-├── data/                            # Folder for storing datasets
-│   └── movies_data.csv              # Example dataset
-├── utils/                           # Helper functions and utilities
-│   ├── genre_filter.py
-│   ├── rating_filter.py
-│   └── review_filter.py
-├── README.md                        # Project README
-
-
 
 **Acknowledgments**
 
