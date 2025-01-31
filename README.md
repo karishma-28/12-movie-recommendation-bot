@@ -21,3 +21,41 @@ The 12-Movie Recommendation Bot is a Python-based project that recommends movies
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/12-movie-recommendation-bot.git
+2. **Navigate to the project directory**:
+   '''bash
+   cd 12-movie-recommendation-bot
+3. **Install the required dependencies**: To ensure all required libraries are installed, run the following command:
+   '''bash
+   pip install -r requirements.txt
+
+###**Usage**
+
+##**Running the Bot**
+1. After installing the dependencies, run the bot by executing the following:
+   '''bash
+   python movie_recommendation_bot.py
+2. **Bot Interaction**:
+   The bot will prompt you to choose a movie genre.
+   You can also select your desired movie rating or review filters.
+   The bot will then generate a list of movie recommendations based on your preferences.
+
+**Example**
+Welcome to the 12-Movie Recommendation Bot!
+Please select a genre: 
+1. Action
+2. Comedy
+3. Drama
+...
+Enter your choice: 1
+
+Please select a minimum IMDB rating: 
+1. 6
+2. 7
+3. 8
+...
+Enter your choice: 2
+
+Here are your recommendations:
+1. Movie A - Rating: 7.5
+2. Movie B - Rating: 8.2
+...
