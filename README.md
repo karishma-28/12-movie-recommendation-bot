@@ -71,11 +71,11 @@ The following libraries are required for this bot to function properly:
 **requests**: To make API requests (if using external APIs).
 **beautifulsoup4**: For scraping movie data (optional, if applicable).
 To install the dependencies, run:
-```bash
-pip install -r requirements.txt
-
+     ```bash
+     pip install -r requirements.txt
 
 **Project Structure**
+
 12-movie-recommendation-bot/
 │
 ├── movie_recommendation_bot.py      # Main script to run the bot
@@ -95,9 +95,15 @@ pip install -r requirements.txt
 We welcome contributions to the 12-Movie Recommendation Bot project! Here's how you can contribute:
 
 Fork the repository.
-Create a new branch ```bash(git checkout -b feature-branch).
-Commit your changes ```bash(git commit -am 'Add new feature').
-Push to the branch ```bash(git push origin feature-branch).
+Create a new branch 
+    ```bash
+       (git checkout -b feature-branch).
+Commit your changes 
+    ```bash
+       (git commit -am 'Add new feature').
+Push to the branch 
+    ```bash
+       (git push origin feature-branch).
 Open a pull request.
 
 
