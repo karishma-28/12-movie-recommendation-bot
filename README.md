@@ -73,3 +73,35 @@ The following libraries are required for this bot to function properly:
 To install the dependencies, run:
 ```bash
 pip install -r requirements.txt
+
+
+**Project Structure**
+12-movie-recommendation-bot/
+│
+├── movie_recommendation_bot.py      # Main script to run the bot
+├── requirements.txt                 # List of dependencies
+├── data/                            # Folder for storing datasets
+│   └── movies_data.csv              # Example dataset
+├── utils/                           # Helper functions and utilities
+│   ├── genre_filter.py
+│   ├── rating_filter.py
+│   └── review_filter.py
+├── README.md                        # Project README
+└── LICENSE                          # Project License
+
+
+**Contribution**
+
+We welcome contributions to the 12-Movie Recommendation Bot project! Here's how you can contribute:
+
+Fork the repository.
+Create a new branch ```bash(git checkout -b feature-branch).
+Commit your changes ```bash(git commit -am 'Add new feature').
+Push to the branch ```bash(git push origin feature-branch).
+Open a pull request.
+
+
+**Acknowledgments**
+
+Thanks to the contributors and libraries that made this project possible.
+Special thanks to movie data APIs and datasets used for building the recommendation model.
