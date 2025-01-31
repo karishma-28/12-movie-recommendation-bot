@@ -28,9 +28,9 @@ The 12-Movie Recommendation Bot is a Python-based project that recommends movies
    '''bash
    pip install -r requirements.txt
 
-###**Usage**
+**Usage**
 
-##**Running the Bot**
+**Running the Bot**
 1. After installing the dependencies, run the bot by executing the following:
    '''bash
    python movie_recommendation_bot.py
@@ -59,3 +59,17 @@ Here are your recommendations:
 1. Movie A - Rating: 7.5
 2. Movie B - Rating: 8.2
 ...
+
+
+**Dependencies**
+
+The following libraries are required for this bot to function properly:
+
+**pandas**: For handling and processing data.
+**numpy**: For numerical operations and handling arrays.
+**scikit-learn**: For implementing machine learning models.
+**requests**: To make API requests (if using external APIs).
+**beautifulsoup4**: For scraping movie data (optional, if applicable).
+To install the dependencies, run:
+'''bash
+pip install -r requirements.txt
