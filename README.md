@@ -87,24 +87,7 @@ To install the dependencies, run:
 │   ├── rating_filter.py
 │   └── review_filter.py
 ├── README.md                        # Project README
-└── LICENSE                          # Project License
 
-
-**Contribution**
-
-We welcome contributions to the 12-Movie Recommendation Bot project! Here's how you can contribute:
-
-Fork the repository.
-Create a new branch 
-    ```bash
-       (git checkout -b feature-branch).
-Commit your changes 
-    ```bash
-       (git commit -am 'Add new feature').
-Push to the branch 
-    ```bash
-       (git push origin feature-branch).
-Open a pull request.
 
 
 **Acknowledgments**
